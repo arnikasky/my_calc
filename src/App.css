@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body > div {
+    width: 404px;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.Output {
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: right;
+}
+
+.Panel{
+    margin: 0;
+    width: 360px;
+    font-size:0;
+    overflow: auto;
+    float: left;
+    display: inline-block;
+}
+
+.Button {
+    background-color: green;
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+}
+
+.numberFields input[name="0"] {
+    width: 360px;
+}
+
+.operations {
+    margin-left: 4px;
+    width: 40px;
+    font-size: 0;
+    display: inline-block;
+}
+
+.operations input {
+    background-color: purple;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+.sum {
+    margin-top: 5px;
+}
+
+.sum input {
+    background-color: purple;
+    border: 1px solid black;
+    width: 404px;
+    height: 40px;
+}
